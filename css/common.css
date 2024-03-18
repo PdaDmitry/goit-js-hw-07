@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+/* ========= General reset of styles ========= */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+/* ========= Styles task-1 ========= */
+
+.cont-task-one {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  border-radius: 8px;
+  padding: 24px;
+  width: 440px;
+  /* height: 888px; */
+  background: #fff;
+  margin: 0 auto;
+}
+
+.item {
+  border-radius: 8px;
+  width: 392px;
+  /* height: 264px; */
+  background: #f6f6fe;
+  padding: 16px;
+}
+
+.item-title-task-one {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.item-menu-task-one {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item-menu-li-task-one {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+/* =================  task-2  ============================ */
+
+.gallery {
+  width: 1440px;
+  padding: 100px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.gallery-item-task-two {
+  width: calc((100% - 48px) / 3);
+}
+
+.gallery-img-task-two {
+  width: 360px;
+  height: 300px;
+}
+
+/* =================  task-3  ============================ */
+
+.div-cont-task-three {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  background: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#name-input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.title-one-task-three,
+#name-output {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* ================= Styles task-4  ================= */
+
+.login-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  /* height: 256px; */
+  background: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+
+  font-family: "Montserrat",
+    sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+}
+
+.form-label-second {
+  margin-bottom: 16px;
+}
+
+.form-label-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.form-label-input:hover {
+  border-color: #000000;
+}
+
+.form-label-input:active {
+  border-color: #808080;
+}
+
+
+.btm-form {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  /* height: 40px; */
+  background: #4e75ff;
+
+
+  font-family: "Montserrat",
+    sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btm-form:hover,
+.btm-form:focus {
+  background: #6c8cff;
+}
+
+/* ================= Styles task-5  ================= */
+
+.widget {
+  border-radius: 8px;
+  padding: 100px 88px;
+  /* width: 345px; */
+  /* height: 280px; */
+  background: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div>p {
+  font-family: "Montserrat",
+    sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  /* height: 40px; */
+  background: #4e75ff;
+
+  font-family: "Montserrat",
+    sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+}
+
+/* ================= Styles task-6  ================= */
+
+#controls {
+  border-radius: 8px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  padding: 32px;
+  display: inline-flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.input-task-six {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 0 8px 72px;
+  width: 150px;
+  height: 40px;
+}
+
+[data-create],
+[data-destroy] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+[data-create]:hover {
+  background: #6c8cff;
+}
+
+[data-destroy] {
+  background: #ff4e4e;
+}
+
+[data-destroy]:hover {
+  background: #ff7070;
+}
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  width: 100%;
+  background: #f6f6fe;
+}
+
+.new-div-el-task-six {
+  display: flex;
+  gap: 16px;
+}
